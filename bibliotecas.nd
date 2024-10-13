@@ -1,0 +1,33 @@
+# comando das bibliotecas utilizadas
+
+## Blibiotecas = pyautogui, time, pandas
+
+pip install pyautogui, pip install pandas, a biblioteca time não precisa instalar ja vem com python
+
+### Comandos da biblioteca time
+
+time.sleep(3) -> pausa para apenas um comando ( 3 = segundos )
+
+### Comandos da blibioteca do pandas
+
+tabela = pandas.read_csv("produtos.csv") -> tabela(variavel), pandas.read_cvs(comando), ("produtos.csv")(arquivo)
+
+pandas.isna(obs) -> verificar se está vazia, pandas.isna(comando), (obs)(variavel)
+
+### Comandos da blibioteca do pyautogui
+  
+pyautogui.write -> escrever um texto
+  
+pyautogui.click(X=(Para esquerda e direira o eixo x), y=(Para cima e para baixo e o eixo y), clicks=2( 2 = dois cliques de uma vez)) -> clicar com o mouse
+
+pyautogui.press -> apertar uma tecla
+
+pyautogui.hotkey -> apertar um atalho de teclado (Ex: ctrl, c)
+
+pyautogui.PAUSE = 0.5 -> configuração de pausa ( 0.5 = meio segundo )
+
+pyautogui.position() -> diz qual a posição do seu mause na tela
+
+pyautogui.drag() -> comando para clicar e arrastar 
+
+pyautogui.scroll() -> rolamento de tela 
